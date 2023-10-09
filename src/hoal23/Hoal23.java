@@ -17,7 +17,7 @@ public class Hoal23 {
         System.out.println("hola soy nuevo ");
         System.out.println("hola");
         for (int i = 0; i < 10; i++) {
-            
+            System.out.println("yair");
         }
     }
     
