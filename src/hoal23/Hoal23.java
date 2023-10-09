@@ -18,7 +18,7 @@ public class Hoal23 {
         System.out.println("hola");
         for (int i = 0; i < 10; i++) {
             System.out.println("yair");
-            System.out.println("");
+            System.out.println("prueba 2 penudo");
         }
     }
     
