@@ -4,6 +4,8 @@
  */
 package hoal23;
 
+import java.util.Scanner;
+
 /**
  *
  * @author natan
@@ -19,7 +21,17 @@ public class Hoal23 {
         for (int i = 0; i < 10; i++) {
             System.out.println("yair");
             System.out.println("prueba 2 penudo");
+             System.out.println("numero decimal a binario");
+        Scanner teclado = new Scanner(System.in); 
+        System.out.print("Ingrese un nÃºmero decimal que quiera convertir a binario: ");
+        int decimal=teclado.nextInt();
+        String Numerobin = decimalbinario(decimal);
+        System.out.println("RepresentaciÃ³n binaria de " + decimal + " es: " + Numerobin);
         }
+    }
+
+    private static String decimalbinario(int decimal) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
